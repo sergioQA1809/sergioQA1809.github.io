@@ -1,0 +1,1472 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: rgb(151, 148, 148);
+	/*background-color:  rgb(181, 178, 178);*/
+}
+
+header{
+	font-family: 'Bebas Neue', sans-serif;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logo__inicio{
+	color: #fff;
+	font-weight: 1vw;
+	font-size: 1.7vw;
+}
+
+.header__inicio{
+	display: inline-block;
+}
+
+.header__imagen{
+	width: 10vw;
+	margin: 8px;
+	border-radius: 20px;
+	box-shadow: 0 0 1vw rgba(0, 0, 0, 1);
+	position: fixed;
+	z-index: 999;
+}
+
+.link__subrayado{
+	display: inline-block;
+	border-radius: 12px;
+	border-top: 3.3vw;
+}
+
+.subrayado{
+	border-radius: 12px;
+ 	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 2vw;
+	padding: 3px 6px;
+}
+.subrayado:hover{
+
+}
+
+.links{
+	text-decoration: none;
+	font-size: 1.5vw;
+	color: #000;
+	transition-property: opacity;
+	transition-duration: .3s;
+	position: fixed;
+	z-index: 999;
+}
+
+.links:hover{
+	opacity: .4;
+}
+
+.merch a{
+	color: #4b21c3;
+}
+
+/*-------------------------------*/	
+section{
+}
+/*-------------------------------*/	
+
+#inicio{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.biembenida2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	box-shadow: 0 20px 20px rgba(0, 0, 0, .5);
+	background-color: rgb(151, 148, 148);
+}
+
+.biembenida__texto{
+	font-family: 'Bebas Neue', sans-serif;
+	color: #fff;
+	width: 50%;
+	transform: translate(0, -5vw);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	cursor: default;
+	margin: 18px;
+}
+
+.biembenida__texto h1{
+	height: 100%;
+	font-size: 9vw;
+	font-weight: 900;
+}
+
+@media screen and (max-width:767px){
+
+	.biembenida{
+			height: 50vw;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+	}
+
+	.biembenida2{
+			width: 100%;
+			height: 50vw;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+	}
+
+	.biembenida__texto{
+			width: 90%;
+			height: 100%;
+		}
+
+	.biembenida__texto h1{
+			font-size: 27vw;
+			font-weight: 900;
+	}	
+
+	.detalles{
+		visibility: hidden;
+	}
+
+	.header{
+		visibility: hidden;
+	}
+}
+
+
+.detalles{
+	background-color: #4b21c3;
+	position: absolute;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 18%;
+	border-radius: 30px 0  0 30px;
+	border: 3px solid #fff;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.detalles:hover{
+	width: 24%;
+	filter: blur(0px);
+	box-shadow: 0vw 0vw 3vw rgba(75, 33, 195, 1.0);
+}
+
+.detalles__superior{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	cursor: default;
+}
+
+.detalles__superior h4{
+	font-family: 'Bebas Neue', sans-serif;
+	margin: 10px 0px;
+	font-size: 1.2vw;
+	font-weight: 800;
+	color: #fff;
+}
+
+.detalles__superior img{
+	width: 9vw;
+}
+
+.detalles__superior p{
+	font-family: 'Gamja Flower', sans-serif;
+	font-size: 1.3vw;
+	color: #fff;
+}
+
+.detalles__hr{
+	width: 85%;
+}
+
+.detalles__inferior{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.detalles__inferior a{
+	font-family: 'Bebas Neue', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5vw;
+	margin: 6px 3px;
+	transition-property: all;
+	transition-duration: .4s;
+}
+
+.detalles__inferior p{
+	font-family: 'Bebas Neue', sans-serif;
+	color: #fff;
+	font-size: 1vw;
+	margin: 6px 3px;
+	cursor: default;
+}
+
+.detalles__inferior a:hover{
+	opacity: .2;
+}
+
+.detalles__inferior p:hover{
+}
+
+
+/* BIEMBENIDA TERMINA --------------------------------------------------------------------------------------------------------*/
+
+.que__es{
+	background-color:  rgb(181, 178, 178) ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 115vh;
+}
+
+
+
+.quees__contenedor__img{
+	width: 40%;
+	max-width: 42%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px;
+}
+
+/*------------*/
+
+.quees__img1{
+	width: 50%;
+	height: 97%;
+	border: 3px solid #fff;
+	z-index: 100;
+	transition-property: width, height, z-index, opacity, transform;
+	transition-duration: .9s;
+}
+
+.quees__img1:hover{
+	width: 52%;
+	height: 100%;
+	z-index: 500;
+}
+
+/*------------*/
+
+.quees__img2{
+	width: 40%;
+	border: 3px solid #fff;
+	transform: translate(-50%);
+	z-index: 200;
+	transition-property: width, z-index, opacity;
+	transition-duration: .9s;
+}
+
+.quees__img2:hover{
+	width: 45%;
+	z-index: 500;
+}
+
+/*------------*/
+
+.quees__img3{
+	width: 35%;
+	border: 3px solid #fff;
+	transform: translate(-100%);
+	z-index: 300;
+	transition-property: width, z-index, opacity;
+	transition-duration: .9s;
+}
+
+.quees__img3:hover{
+	width: 40%;
+	z-index: 500;
+}
+
+/*--------------------------------------------------*/
+
+.quees__contenido{
+	font-family: 'Bebas Neue', sans-serif;
+	width: 45%;
+	margin: 15px;
+    color: #333;
+    cursor: default;
+}
+
+.quees__contenido h4{
+	font-size: 4vw;
+	font-weight: 800;
+	margin: 15px 10px;
+	color: #333;
+}
+
+.quees__contenido p{
+	font-size: 2vw;
+	margin: 15px 10px;
+}
+
+@media screen and (max-width:1000px){
+
+	.que__es{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.quees__contenedor__img{
+			position: absolute;
+			visibility: hidden;
+		}
+	
+	.quees__contenido{
+		width: 80%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.quees__contenido h4{
+		font-size: 8vw;
+	}
+
+	.quees__contenido p{
+		font-size: 4vw;
+	}
+
+}
+
+
+@media screen and (max-width:576px){
+
+	.que__es{
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.imagen__de__quees{
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.quees__contenido{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.quees__contenido h4{
+		font-size: 14vw;
+	}
+
+	.quees__contenido p{
+		font-size: 7.5vw;
+	}
+
+}
+
+/* ¿QUE ES? TERMINA --------------------------------------------------------------------------------------------------------*/	
+
+#lives{
+	background-color:  rgb(181, 178, 178);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction:  column;
+	justify-content: center;
+	align-items: center;
+}
+
+.lives__section{
+	font-family: 'Bebas Neue', sans-serif;
+	width: 60%;
+	height: 75%;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	transition-property: box-shadow;
+	transition-duration: 1s;
+}
+
+.lives__section:hover{
+}
+
+.lives__fechas{
+	width: 60%;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.lives__repeticiones{
+	width: 65%;
+	height: 100%;
+	background-color: rgb(75, 33, 195);
+	border-radius: 45px 0px 0px 45px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	transform: translate(-9%);
+}
+
+.lives__titulo1{
+	margin: 15px 10px;
+	padding: 5px;
+	font-size: 3vw;
+	color: #444;
+}
+.lives__titulo2{
+	margin: 15px 10px;
+	padding: 5px;
+	font-size: 3vw;
+	color: #fff;
+}
+
+/*----------------------------------------------------*/
+
+.lives__detalles{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.lives__horario{
+	font-size: 2vw;
+	color: #444;
+	margin: 3px 5px 1px 5px;
+	padding: 3px;
+}
+
+.lives__vs{
+	font-size: 1.5vw;
+	color: #444;
+	margin: 3px 5px;
+	padding: 3px;
+}
+
+.lives__partido{
+	font-size: 1vw;
+	color: #444;
+	margin: 3px 5px 20px 5px;
+	padding: 3px;
+}
+
+/*----------------------------------------------------*/
+
+.rep__detalles{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rep__detalles hr{
+	width: 100%;
+}
+
+.rep__detalles_descripcion{
+	font-size: 2vw;
+	color: #fff;
+	margin: 3px 5px;
+	padding: 3px;
+}
+
+.boton__repeticiones{
+	width: 15vw;
+	height: 15vw;
+	background: linear-gradient(to bottom, rgb(255, 128, 0), rgb(255, 215, 0));
+	box-shadow: 0 0 3vw rgb(255, 215, 0);
+	border-radius: 50%;
+	border: 1px solid #fff;
+	margin: 60px;
+}
+
+.boton__repeticiones a{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 2.5vw;
+	text-decoration: none;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 900;
+}
+
+@media screen and (max-width:576px){
+
+	#lives{
+		height: 200vh;
+	}
+
+	.lives__tutulo__principal{
+		font-size: 15vw;
+		border-bottom: 3px solid #fff;
+	}
+
+	.lives__section{
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.lives__fechas{
+		width: 100%;
+		border: none;
+		margin-bottom: 20px;
+	}
+
+	.lives__repeticiones{
+		width: 100%;
+		border: none;
+		margin: 0;
+	}
+
+	.lives__titulos{
+		font-size: 12vw;
+	}
+
+	.lives__detalles{
+		margin-bottom: 20px;
+	}
+
+	.lives__horario{
+		font-size: 9vw;
+	}
+
+	.lives__vs{
+		font-size: 8vw;
+	}
+
+	.lives__partido{
+		font-size: 5vw;
+	}
+/*----------------------------------------------------*/
+	.rep__detalles_descripcion{
+		font-size: 6vw;
+	}
+
+	.rep__fecha{
+		font-size: 9vw;
+	}
+
+	.rep__vs{
+		font-size: 6vw;
+	}
+
+	.rep__boton{
+		width: 50%;
+		font-size: 9vw;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+}
+
+/* LIVES TERMINA --------------------------------------------------------------------------------------------------------*/	
+
+#camaras{
+	background-color:  rgb(181, 178, 178) ;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.camara{
+	width: 40vw;
+	height: 27vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.camara:hover{
+}
+
+.camara:hover .parte__inferior{
+	box-shadow: 0vw 12px 25px #4b21c3;
+}
+
+.camara:hover .lente1{
+	border: 1px solid #4b21c3;
+	box-shadow: 0vw 0vw 5vw #4b21c3;
+	z-index: 500;
+	filter: blur(0px);
+	animation:  vuelaizquierda 1.5s infinite;
+}
+
+@keyframes vuel taizquierda{
+	0%{
+	border: 1px solid #4b21c3;
+	border-left: 1px solid #fff;
+	}
+
+	25%{
+	border: 1px solid #4b21c3;
+	border-top: 1px solid #fff;
+
+	}
+
+	50%{
+	border: 1px solid #4b21c3;
+	border-right: 1px solid #fff;
+	}
+
+	75%{
+	border: 1px solid #4b21c3;
+	border-bottom: 1px solid #fff;
+	}
+
+	100%{
+	border: 1px solid #4b21c3;
+	border-left: 1px solid #fff;
+	}
+}
+
+.camara:hover .lente2{
+	border: 1px solid #4b21c3;
+	z-index: 500;
+	filter: blur(0px);
+	animation:  vueladerecha 1.5s infinite;
+}
+
+@keyframes vueltaderecha{
+	0%{
+	border: 1px solid #4b21c3;
+	border-top: 1px solid #fff;
+	}
+
+	25%{
+	border: 1px solid #4b21c3;
+	border-right: 1px solid #fff;
+
+	}
+
+	50%{
+	border: 1px solid #4b21c3;
+	border-bottom: 1px solid #fff;
+	}
+
+	75%{
+	border: 1px solid #4b21c3;
+	border-left: 1px solid #fff;
+	}
+
+	100%{
+	border: 1px solid #4b21c3;
+	border-top: 1px solid #fff;
+	}
+}
+
+.camara:hover .a__galeria{
+	opacity: .6;
+	color: #4b21c3;
+}
+
+.camara:hover .flash{
+	background-color: rgb(181, 178, 178);
+	border: 1px solid #000;
+	transition-property: all;
+	animation: parpadea 3s infinite;
+	animation-delay: .9s;
+}
+
+@keyframes parpadea{
+	0%{
+	background-color: rgb(181, 178, 178);
+	box-shadow: 0 0 0vw rgb(255, 255, 0);
+	border: 1px solid #fff;
+	}
+
+	9%{
+	background-color: rgb(225, 225, 100);
+	box-shadow: 0 0 12vw rgb(255, 255, 0);
+	border: 1px solid #777;
+	}
+
+	20%{
+	background-color: rgb(181, 178, 178);
+	box-shadow: 0 0 0vw rgb(255, 255, 0);
+	}
+
+	30%{
+	background-color: rgb(181, 178, 178);
+	box-shadow: 0 0 0vw rgb(255, 255, 0);
+	}
+
+	40%{
+	background-color: rgb(181, 178, 178);
+	box-shadow: 0 0 0vw rgb(255, 255, 0);
+	}
+
+	50%{
+	background-color: rgb(181, 178, 178);
+	box-shadow: 0 0 0vw rgb(255, 255, 0);
+	}
+
+	100%{
+	background-color: rgb(181, 178, 178);
+	box-shadow: 0 0 0vw rgb(255, 255, 0);
+	}
+
+}
+
+.parte__superior{
+	width: 30%;
+	height: 18%;
+	border: 1px solid #000;
+	border-radius: 1.3vw 1.3vw 0 0;
+	border-bottom: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.flash{
+	width: 85%;
+	height: 85%;
+	border: 1px solid #000;
+	border-radius: 1.3vw;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.parte__inferior{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 1.5vw;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.parte__izquierda{
+	width: 15%;
+	height: 100%;
+	border: 1px solid #000;
+	border-radius: 1.5vw 0 0 1.5vw;
+}
+
+.parte__derecha{
+	width: 84%;
+	height: 100%;
+	border: 1px solid #000;
+	border-radius: 0 1.5vw 1.5vw 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.lente1{
+	width: 33%;
+	height: 50%;
+	border: 1px solid #000;
+	border-radius: 50%;
+	transform: translate(-30%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.lente2{
+	width: 85%;
+	height: 85%;
+	border: 1px solid #000;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+.a__galeria{
+	font-family: "Madimi One", sans-serif;
+	width: 12vw;
+	height: 12vw;
+	position: absolute;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #333;
+	font-size: 2vw;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+/* CAMARA TERMINA --------------------------------------------------------------------------------------------------------*/
+
+#merch{
+	background-color:  rgb(181, 178, 178);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.cuadro__de__productos{
+	width: 36vw;
+	height: 36vw;
+	display: flex;
+	flex-direction: column;
+	margin: 1vw;
+}
+
+.hr1{
+	transform: rotate(90deg);
+	background-color: #000;
+	width: 36vw;
+	box-shadow: 0 0 15px rgba(75, 33, 195, 1.0);
+}
+
+.hr2{
+	background-color: #000;
+	width: 36vw;
+	box-shadow: 0 0 15px rgba(75, 33, 195, 1.0);
+}
+
+.cuadro__de__productos__superior{
+	background-color: ;
+	display: flex;
+	flex-direction: ;
+	align-items: center;
+}
+
+.mercancia__img{
+	width: 18vw;
+	border-radius: 20px;
+}
+
+.productos__descripcion{
+	font-family: 'Bebas Neue', sans-serif;
+	width: 18vw;
+	height: 18vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.productos__descripcion h5{
+	font-size: 1.7vw;
+	font-weight: 800;
+	width: 90%;
+	margin: 9px 0;
+}
+
+.productos__descripcion p{
+	font-size: 1.5vw;
+	font-weight: 400;
+	width: 90%;
+	margin: 9px 0;
+}
+
+.cuadro__de__productos__inferior{
+	background-color: #;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+
+@media screen and (max-width:1000px){
+
+	#merch{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width:576px){
+
+	#merch{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 60vh;
+}
+
+
+	.cuadro__de__productos{
+	width: 100vw;
+	height: 100vw;
+	display: flex;
+	flex-direction: column;
+	margin: 1vw;
+}
+
+.cuadro__de__productos__superior{
+	justify-content: center;
+}
+
+
+.hr1{
+	transform: rotate(90deg);
+	background-color: #000;
+	width: 100vw;
+	box-shadow: 0 0 15px rgba(75, 33, 195, 1.0);
+}
+
+.hr2{
+	background-color: #000;
+	width: 100vw;
+	box-shadow: 0 0 15px rgba(75, 33, 195, 1.0);
+}
+
+
+.mercancia__img{
+	width: 45vw;
+	border-radius: 30px;
+}
+
+
+.productos__descripcion{
+	font-family: 'Bebas Neue', sans-serif;
+	width: 45vw;
+	height: 45vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.productos__descripcion h5{
+	font-size: 5vw;
+	font-weight: 800;
+	width: 90%;
+	margin: 9px 0;
+}
+
+.productos__descripcion p{
+	font-size: 3.5vw;
+	font-weight: 400;
+	width: 90%;
+	margin: 9px 0;
+}
+
+.cuadro__de__productos__inferior{
+	background-color: #;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+}
+
+}
+
+/*PRODUCTOS PARTE 1 TERMINA-------------------------------------------------------------------------------------------------------------*/
+.marquee__merch{
+	width: 100%;
+	height: 2.5vw;
+	background-color: #000;
+}
+
+.marquee__merch_a{
+	text-decoration: none;
+}
+
+.marquee__merch_p{
+	font-family: 'Bebas Neue', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2vw;
+	font-weight: 700;
+	display: inline-block;
+	margin-right: 1.2vw;
+	margin-left: 1.2vw;
+}
+
+.mercancia__p2{
+	background-color:  rgb(181, 178, 178);
+	width: 100%;
+	height: 60hw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+@media screen and (max-width:1000px){
+
+	.mercancia__p2{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+}
+
+/*PRODUCTOS PARTE 2 TERMINA-------------------------------------------------------------------------------------------------------------*/
+
+#paquetes{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+.paquetes_2{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 0 6vw rgba(0, 0, 0, .6);
+	background-color: rgb(151, 148, 148);
+}
+/*bloque de fondo termina*/
+.circulo{
+	position: absolute;
+	right: 0;
+	visibility: visible;
+	/* background: linear-gradient(to bottom, rgb(255, 128, 0), rgb(255, 215, 0)); 
+	box-shadow: 0 0 9vw rgb(255, 215, 0); */
+	background: linear-gradient(to top, rgb(0, 139, 139), rgb(75, 33, 195));
+	box-shadow: 0px 0px 24px rgba(0, 139, 139, 1);
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	margin-right: 15%;
+	z-index: 1;
+}
+.rectangulo{
+	position: absolute;
+	left: 0;
+	visibility: visible;
+	/* background: linear-gradient(to bottom, rgb(255, 128, 0), rgb(255, 215, 0)); 
+	box-shadow: 0 0 9vw rgb(255, 215, 0); */
+	background: linear-gradient(to bottom, rgb(0, 139, 139), rgb(75, 33, 195));
+	box-shadow: 0 0 9vw rgba;
+	box-shadow: -9px 9px 24px rgba(0, 139, 139, 1);
+	width: 6vw;
+	height: 20vw;
+	margin-left: 24%;
+	z-index: 1;
+}
+/*figuras de fondo termina*/
+
+.pack1{
+	width: 90%;
+	height: 80%;
+	box-shadow: 0 9px 24px rgba(0, 0, 0, .8);
+	background-color: #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+
+.boton__pack1{
+	font-family: 'Bebas Neue', sans-serif;
+	width: 50%;
+	height: 80%;
+	background-color: rgb(50, 50, 50, .6);
+	backdrop-filter: blur(5px);
+	border-radius: 3%;
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	font-size: 2vw;
+	z-index: 100;
+	cursor: default;
+}
+.boton__pack1 h5{
+	margin: 15px;
+	font-size: 6vw;
+}
+.boton__pack1 p{
+	margin: 15px;
+	font-size: 2vw;
+}
+.boton__pack1 i{
+	cursor: text;
+	transition-duration: .6s;
+	transition-property: color;
+}
+.boton__pack1 i:hover{
+	color: rgb(75, 33, 195);
+}
+
+
+
+
+
+
+/*	Empieza Media Queries------>	*/
+@media screen and (max-width:767px){
+
+
+#paquetes{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+.paquetes_2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 0 6vw rgba(0, 0, 0, .6);
+	background-color: rgb(151, 148, 148);
+}
+/*bloque de fondo termina*/
+.circulo{
+	position: absolute;
+	right: 0;
+	visibility: hidden;
+}
+.rectangulo{
+	position: absolute;
+	left: 0;
+	visibility: hidden;
+}
+/*figuras de fondo termina*/
+	.pack1{
+	width: 100%;
+	height: 100%;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+
+.boton__pack1{
+	width: 100%;
+	height: 90%;
+	border: none;
+}
+.boton__pack1 h5{
+	margin: 0px;
+	font-size: 15vw;
+}
+.boton__pack1 p{
+	margin: 0px;
+	font-size: 6vw;
+}
+.boton__pack1 i{
+	color: rgb(75, 33, 195);
+	font-size: 16.5;
+}
+.boton__pack1 i:hover{	
+}
+
+}/*SMARTPHONE termina*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+	#paquetes{
+		width: 100%;
+		height: 90vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
+	.paquetes_2{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		box-shadow: 0 0 6vw rgba(0, 0, 0, .6);
+		background-color: rgb(151, 148, 148);
+	}
+	/*bloque de fondo termina*/
+	.circulo{
+		position: absolute;
+		right: 0;
+		margin: 15px;
+		visibility: visible;
+	}
+	.rectangulo{
+		position:absolute;
+		left: 0;
+		margin: 20px;
+		visibility: visible;
+	}
+	/*figuras de fondo termina*/
+		.pack1{
+		width: 85%;
+		height: 100%;
+		box-shadow: none;
+		background-color: transparent;
+	}
+
+
+	.boton__pack1{
+		width: 100%;
+		height: 90%;
+		border: none;
+	}
+	.boton__pack1 h5{
+		margin: 0px;
+		font-size: 10vw;
+	}
+	.boton__pack1 p{
+		margin: 0px;
+		font-size: 4.5vw;
+	}
+	.boton__pack1 i{
+		color: rgb(75, 33, 195);
+		font-size: 6.5;
+	}
+	.boton__pack1 i:hover{	
+	}
+
+}
+
+/*	<------termina Media Queries	*/
+
+/* CONTACTANOS TERMINA --------------------------------------------------------------------------------------------------------*/
+
+footer{
+	background-color: rgb(123, 120, 119);
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+h4{
+	font-family: "Madimi One", sans-serif;
+ 	font-weight: 900;
+ 	color: #fff;
+	font-size: 3vw;
+	margin: 10px;
+}
+
+footer > hr{
+	width: 80%;
+}
+
+footer > p{
+	font-size: 1.5vw;
+	margin: 9px 3px;
+}
+
+.footer__contenedor__principal{
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 20px 10px;
+}
+
+/*----------------------------------------------------*/
+
+.footer__contenedor__1{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer__contenedor__1 img{
+	width: 12vw;
+}
+
+.footer__contenedor__1 p{
+	font-family: 'Gamja Flower', sans-serif;
+	font-size: 1.8vw;
+	color: #fff;
+}
+
+/*----------------------------------------------------*/
+
+.footer__contenedor__2{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.footer__contenedor__2 h5{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 2.1vw;
+	color: #fff;
+}
+
+.footer__contenedor__2 a{
+	font-family: "Madimi One", sans-serif;
+	background-color: #333;
+	width: 50%;
+	height: 3vw;
+	color: #fff;
+	border: 2px solid #fff;
+	margin: 9px 3px;
+	font-size: 1.8vw;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition-property: opacity;
+	transition-duration: .6s;
+}
+
+.footer__contenedor__2 a:hover{
+	opacity: .6;
+}
+
+@media screen and (max-width:700px){
+
+	footer{
+		height: 110vh;
+	}
+
+	footer h4{
+		font-size: 6vw;
+	}
+
+	.footer__contenedor__principal{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__contenedor__1{
+		width: 100%;
+	}
+
+	.footer__contenedor__1 img{
+		width: 28vw;
+	}
+
+	.footer__contenedor__1 p{
+		font-size: 3vw;
+	}
+
+	/*----------------------------------------------------*/
+
+	.footer__contenedor__2{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.footer__contenedor__2 h5{
+		font-size: 4vw;
+	}
+
+	.footer__contenedor__2 a{
+		height: 0;
+		margin: 5px 0px;
+		padding: 3vw 0vw;
+		font-size: 3vw;
+	}
+
+}
+
+@media screen and (max-width:576px){
+
+	footer{
+		height: 75vh;
+	}
+
+	.titulo__del__footer{
+		font-size: 9vw;
+		border-bottom: 2px solid #fff;
+	}
+
+	.p__copyrigth{
+		font-size: 6vw;
+	}
+
+	footer > hr{
+		width: 90%;
+	}
+
+	.footer__contenedor__principal{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__contenedor__1{
+		width: 100%;
+	}
+
+	.footer__contenedor__1 img{
+		width: 39vw;
+	}
+
+	.footer__contenedor__1 p{
+		font-size: 10vw;
+	}
+
+	/*----------------------------------------------------*/
+
+	.footer__contenedor__2{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.footer__contenedor__2 h5{
+		font-size: 9vw;
+	}
+
+	.footer__contenedor__2 a{
+		width: 80%;
+		height: 20%;
+		font-size: 6vw;
+	}
+
+}
