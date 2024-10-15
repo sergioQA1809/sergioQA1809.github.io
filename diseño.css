@@ -1,0 +1,688 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #fff;
+}
+
+.whatsapp-logo-Contenedor{
+	background-color: #FFD5F4;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	border: 3px solid #FFB8EB;
+	bottom: 10px;
+	right: 10px;
+	position: fixed;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 1);
+    z-index: 1100;
+}
+.whatsapp-logo-Link{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.whatsapp-logo{
+	width: 70%;
+}
+
+
+
+.mayusculas{
+	color: rgb(200, 0, 0);
+	font-size: 4vw;
+	font-weight: 400;
+}
+
+/*basico termina------------------------------------------------------------------------------*/
+
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+.barra-navegacion{
+ 	font-family: "Bona Nova SC", serif;
+	background-color: #505050;
+	width: 100%;
+ 	display: flex;
+ 	justify-content: space-between;
+}
+.barra-navegacion-li{
+	display: inline-block;
+	height: 9vh;
+	min-width: 23%;
+	transition-duration: .5s;
+	text-align: center;
+}
+.barra-navegacion-li:hover{
+	background-color: #FFB8EB;
+	color: #000;
+}
+.alinear{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.barra-navegacion-a{
+	cursor: pointer;
+ 	color: #B9B9BA;
+ 	text-decoration: none;
+ 	width: 100%;
+ 	height: 100%;
+ 	padding: 0px 5px 0px 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.5vw;
+}
+
+/*navegacion termina--------------------------------------------------------------------------*/
+
+main{
+	margin-top: 9vh;
+	color: #505050;
+}
+
+.seccion1{
+	display: flex;
+	justify-content: center;
+	height: 40vh;
+}
+.seccion1-Titulo{
+	color: #666666;
+	font-family: "Playfair Display", serif;
+	font-weight: 200;
+	font-size: 11vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.seccion2{
+
+}
+.seccion2-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 3.5vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+/*Parte inicial termina-----------------------------------------------------------------------*/
+
+.parte2{
+	min-width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.faciales{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.faciales-h3{
+	width: 90%;
+	padding: 15px 3px;
+	font-family: "Playwrite CU", cursive;
+	background-color: #FFE3E2;
+	font-size: 4.5vw;
+	color: #666666;
+	border-right: 2px solid #666666;
+}
+.faciales-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 3.5vw;
+	margin: 3.5vw;
+	display: flex;
+	justify-content: center;
+}
+.faciales-ul{
+	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	margin: 2vw 6vw;
+}
+.faciales-li{
+	font-size: 3.5vw;
+	margin: 3vw 0vw;
+}
+.faciales-li-h4{
+	font-size: 3.5vw;
+}
+.faciales-li-p{
+	font-size: 3.5vw;
+}
+/*--------------------------------------------------*/
+.Parte2-hr{
+	width: 80%;
+	color: #666666;
+	margin: 5vw 0vw;
+}
+/*--------------------------------------------------*/
+.corporales{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.corporales-h3{
+	width: 90%;
+	padding: 15px 5px;
+	font-family: "Playwrite CU", cursive;
+	background-color: #FFE3E2;
+	font-size: 4.5vw;
+	color: #666666;
+	border-right: 3px solid #666666;
+}
+.corporales-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 3.5vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+
+/*--------------------------------------------------*/
+
+.epilaciones{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.epilaciones-h3{
+	width: 90%;
+	padding: 15px 5px;
+	font-family: "Playwrite CU", cursive;
+	background-color: #FFE3E2;
+	font-size: 4.5vw;
+	color: #666666;
+	border-right: 3px solid #666666;
+}
+.epilaciones-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 3.5vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+.epilaciones-ul{
+	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	margin: 2vw 6vw;
+}
+.epilaciones-li{
+	font-size: 3.5vw;
+	margin: 3vw 0vw;}
+/*Cuerpo termina-----------------------------------------------------------------------------*/
+footer{
+	width: 100%;
+	background-color: #505050;
+}
+.redes{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 3vw;
+}
+.redes-a{
+	margin: 3vw;
+	background-color: #fff;
+	border-radius: 25px;
+	padding: 1vw;
+}
+.redes-img{
+	width: 9vw;
+}
+/*------------------------------*/
+.hr-footer{
+	width: 80%;
+}
+/*------------------------------*/
+.nav2{
+	width: 100%;
+	margin: 2vw 0vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.nav2-a{
+	display: inline-block;
+	width: 9vw;
+	padding: 1.5vw;
+	color: #fff;
+	font-size: 3.5vw;
+	margin: 3vw;
+}
+/*------------------------------*/
+.copyright{
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright-p{
+	font-size: 3.5vw;
+	color: #000;
+	margin: 1.5vw;
+}
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 576px) and (max-width: 767px) {/* ------------------------------- Estilos para tablets */
+	.whatsapp-logo-Contenedor{
+		width: 10vw;
+		height: 10vw;
+	}
+
+	.faciales-h3{
+		width: 80%;
+	}
+	.corporales-h3{
+		width: 80%;
+	}
+	.epilaciones-h3{
+		width: 80%;
+	}
+
+
+}
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991.98px) {/* ------------------------------- Estilos para laptops */
+	.whatsapp-logo-Contenedor{
+		width: 7vw;
+		height: 7vw;
+	}
+
+	.faciales-h3{
+		width: 60%;
+	}
+	.corporales-h3{
+		width: 60%;
+	}
+	.epilaciones-h3{
+		width: 60%;
+	}
+
+.mayusculas{
+	color: rgb(200, 0, 0);
+	font-size: 3vw;
+	font-weight: 400;
+}
+
+
+.seccion1-Titulo{
+	color: #666666;
+	font-family: "Playfair Display", serif;
+	font-weight: 200;
+	font-size: 6vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.seccion2{
+
+}
+.seccion2-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 2vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.faciales-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 2vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+.faciales-ul{
+	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	margin: 1vw 4vw;
+}
+.faciales-li{
+	font-size: 3.5vw;
+	margin: 2vw 0vw;
+}
+.faciales-li-h4{
+	font-size: 3vw;
+}
+.faciales-li-p{
+	font-size: 2vw;
+}
+
+/*--------------------------------------------------*/
+.corporales{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.corporales-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 2vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+
+/*--------------------------------------------------*/
+
+.epilaciones{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.epilaciones-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 2vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+.epilaciones-ul{
+	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	margin: 1vw 4vw;
+}
+.epilaciones-li{
+	font-size: 2vw;
+	margin: 2vw 0vw;}
+/*Cuerpo termina-----------------------------------------------------------------------------*/
+footer{
+	width: 100%;
+	background-color: #505050;
+}
+.redes{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 1vw;
+}
+.redes-a{
+	margin: 1.5vw;
+	background-color: #fff;
+	border-radius: 25px;
+	padding: .5vw;
+}
+.redes-img{
+	width: 3vw;
+}
+/*------------------------------*/
+.hr-footer{
+	width: 80%;
+}
+/*------------------------------*/
+.nav2{
+	width: 100%;
+	margin: 1vw 0vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.nav2-a{
+	display: inline-block;
+	width: 6vw;
+	padding: .5vw;
+	color: #fff;
+	font-size: 2vw;
+	margin: 2vw;
+}
+/*------------------------------*/
+.copyright{
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright-p{
+	font-size: 2vw;
+	color: #000;
+	margin: 1vw;
+}
+
+
+
+.barra-navegacion{
+ 	font-family: "Bona Nova SC", serif;
+	background-color: #505050;
+	width: 100%;
+ 	display: flex;
+ 	justify-content: space-between;
+}
+.barra-navegacion-li{
+	display: inline-block;
+	height: 10vh;
+	min-width: 23%;
+	transition-duration: .5s;
+}
+.barra-navegacion-li:hover{
+	background-color: #FFB8EB;
+	color: #000;
+}
+.alinear{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.barra-navegacion-a{
+	cursor: pointer;
+ 	color: #B9B9BA;
+ 	text-decoration: none;
+ 	width: 100%;
+ 	height: 100%;
+ 	padding: 0px 5px 0px 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3vw;
+}
+
+}
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 992px) {/* ------------------------------- Estilos para escritorios */
+
+.barra-navegacion-li{
+	height: 12vh;
+	min-width: 23%;
+}
+.barra-navegacion-a{
+	font-size: 2vw;
+}
+
+	.whatsapp-logo-Contenedor{
+		width: 6vw;
+		height: 6vw;
+	}
+
+.mayusculas{
+	font-size: 2vw;
+}
+
+
+.seccion1-Titulo{
+	font-size: 4vw;
+}
+
+
+.seccion2-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 1.5vw;
+	margin: 1vw;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.faciales-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 1.5vw;
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+}
+.faciales-ul{
+	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	margin: 1vw 3vw;
+}
+.faciales-li-h4{
+	font-size: 2vw;
+}
+.faciales-li-p{
+	font-size: 1.5vw;
+}
+
+
+
+	.faciales-h3{
+		width: 60%;
+		font-size: 3vw;
+	}
+	.corporales-h3{
+		width: 60%;
+		font-size: 3vw;
+	}
+	.epilaciones-h3{
+		width: 60%;
+		font-size: 3vw;
+	}
+/*--------------------------------------------------*/
+.corporales{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.corporales-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 1.5vw;
+	margin: 1vw;
+	display: flex;
+	justify-content: center;
+}
+
+/*--------------------------------------------------*/
+
+.epilaciones{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.epilaciones-p{
+ 	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	font-size: 1.5vw;
+	margin: 1vw;
+	display: flex;
+	justify-content: center;
+}
+.epilaciones-ul{
+	font-family: "Bona Nova SC", serif;
+	color: #666666;
+	margin: 1vw 4vw;
+}
+.epilaciones-li{
+	font-size: 1.5vw;
+	margin: 1vw 0vw;}
+/*Cuerpo termina-----------------------------------------------------------------------------*/
+footer{
+	width: 100%;
+	background-color: #505050;
+}
+.redes{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: .5vw;
+}
+.redes-a{
+	margin: 1vw;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: .5vw;
+}
+.redes-img{
+	width: 2vw;
+}
+/*------------------------------*/
+.hr-footer{
+	width: 70%;
+}
+/*------------------------------*/
+.nav2{
+	width: 100%;
+	margin: 1vw 0vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.nav2-a{
+	display: inline-block;
+	width: 4vw;
+	padding: .5vw;
+	color: #fff;
+	font-size: 1.5vw;
+	margin: 1vw;
+}
+/*------------------------------*/
+.copyright{
+	width: 100%;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright-p{
+	font-size: 1vw;
+	color: #000;
+	margin: 1vw;
+}
+
+}
